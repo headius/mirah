@@ -1,7 +1,0 @@
-<project name="test">
-  <taskdef name="dubyc" classname="org.mirah.ant.Compile"/>
-
-  <target name="blah">
-    <dubyc src="examples/fib.duby" target="build"/>
-  </target>
-</project>
